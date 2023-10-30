@@ -4,3 +4,28 @@
     font-family: 'Roboto', sans-serif;
     font-family: 'Noto Sans SC', sans-serif;
 }
+
+.text-box{
+    width: 90%;
+	position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 52px;
+}
+.text-box h5{
+    font-size: 12px;
+	color: #828c96;
+}
+.text-box>h5>a {
+    color: #828c96;
+    font-size: 12px;
+}
+.text-box>p>a {
+    color: #828c96;
+    /*text-decoration: none;
+    font-size: 18px;
+}
