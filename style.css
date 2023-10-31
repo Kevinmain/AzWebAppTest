@@ -8,7 +8,7 @@
 .text-box{
     width: 90%;
 	position: absolute;
-    top: 40%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
@@ -26,6 +26,35 @@
 }
 .text-box>p>a {
     color: #828c96;
-    /*text-decoration: none;
+    /*text-decoration: none;*/
     font-size: 18px;
+}
+
+@media(max-width: 600px){
+	.text-box h1{
+		font-size: 35px;
+	}
+	.text-box>p>a {
+    color: #828c96;
+    /*text-decoration: none;*/
+    font-size: 14px;
+}
+}
+@media(max-width: 380px){
+	.text-box{
+    width: 90%;
+	position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+	}
+	.text-box h1{
+		font-size: 32px;
+	}
+	.text-box>p>a {
+    color: #828c96;
+    /*text-decoration: none;*/
+    font-size: 14px;
+}
 }
